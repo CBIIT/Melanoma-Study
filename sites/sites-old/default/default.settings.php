@@ -244,21 +244,7 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'melanoma',
-      'username' => 'mysql',
-      'password' => 'DBAdmin1',
-      'host' => '172.17.0.2',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+$databases = array();
 
 /**
  * Access control for update.php script.
@@ -290,7 +276,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'ZLbtdXZ5nfAnzQSgHZ0Ur6_FcbXZl_7Q_Vy0pzehDtM';
+$drupal_hash_salt = '';
 
 /**
  * Base URL (optional).
